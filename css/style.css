@@ -1,0 +1,265 @@
+:root{
+	--main-color: #d36009;
+	--support-color: #6f7c56;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+}
+
+img{
+	width: 100%;
+}
+
+.big_header_section{
+	width: 100%;
+	height: 100vh;
+	background: url('../images/back2.jpg');
+	background-size: cover;
+	position: relative;
+	/*border-bottom: 10px solid coral;*/
+
+}
+
+.header_title{
+	position: relative;
+	width: 90%;
+    left: 50%;
+    top: 25%;
+	transform: translateX(-50%);
+}
+
+.logo{
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.logo img{
+	width: 100%;
+}
+
+.header_title h1{
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	margin: 0;
+	position: absolute;
+	width: 100%;
+	top: 380px;
+	left: 50%;
+	font-family: 'Poppins', sans-serif;
+	transform: translateX(-50%);
+}
+
+.header_title h1::after{
+	content: "";
+    width: 100%;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: -40px;
+}
+
+.fixed_menu{
+	position: fixed;
+	right: 40px;
+	top: 40px;
+	z-index: 990;
+}
+
+.fixed_menu ul{
+	list-style: none;
+	margin: 0;
+}
+
+.fixed_menu ul li{
+	width: 40px;
+	height: 40px;
+	background: var(--main-color);
+	margin: 3px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+
+.fixed_menu ul li a{
+	color: white;
+}
+
+.text_section{
+	margin: 80px 60px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.guide_info, .package_info{
+	padding: 30px 0;
+}
+
+.guide_info img, .package_info img{
+	width: 100%;
+}
+
+.guide_info a, .package_info a{
+	display: block;
+	color: coral;
+	width: 200px;
+	text-decoration: none;
+	transition: all 2s;
+}
+
+.guide_info a:hover, .package_info a:hover{
+	background: var(--main-color);
+	color: white;
+}
+
+.btn_default{
+	border: 2px solid var(--main-color);
+	padding: 10px 15px;
+	margin-top: 10px;
+}
+
+.btn_white{
+	border: 2px solid white;
+	padding: 10px 15px;
+	margin-top: 10px;
+	color: white;
+	background: transparent;
+	position: absolute;
+	bottom: 20%;
+}
+
+.footer_section{
+	background: var(--support-color);
+	padding: 60px 0;
+	color: white;
+
+}
+
+.footer_section ul{
+	list-style: none;
+	margin: 0;
+}
+
+.footer_section ul li{
+	padding: 3px 0;
+}
+
+.footer_section ul li span{
+	margin-left: 10px;
+}
+
+.company_info p{
+	text-align: center;
+}
+
+.cat1{
+	background-image:  url('https://www.visitthecatskills.com/sites/default/files/styles/960x640_persona/public/greene_county_-_hiking_kaaterskills_falls_0.jpg?itok=YHl0wV_W');
+	background-color: var(--support-color);
+  	background-blend-mode: multiply;	
+}
+
+.cat2{
+	background-image:  url('https://www.visitthecatskills.com/sites/default/files/styles/960x640_persona/public/cats_1015_1124.jpg?itok=T_Oa9trE');
+	background-color: var(--support-color);
+  	background-blend-mode: multiply;
+}
+
+.cat3{
+	background-image: url('https://www.visitthecatskills.com/sites/default/files/styles/960x640_persona/public/cats_1015_2764.jpg?itok=BtgW0kvG');
+	background-color: var(--support-color);
+  	background-blend-mode: multiply;
+}
+
+.cat4{
+	background-image: url('https://www.visitthecatskills.com/sites/default/files/styles/960x640_persona/public/arnold_lounge_0.jpg?itok=sTxK4ihY');
+	background-color: var(--support-color);
+  	background-blend-mode: multiply;
+}
+
+.cat5{
+	background-image: url('../images/one.jpg');
+	background-color: var(--support-color);
+  	background-blend-mode: multiply;
+}
+
+.cat6{
+	background-image: url('../images/two.jpg');
+	background-color: var(--support-color);
+  	background-blend-mode: multiply;
+}
+
+.cat7{
+	background-image: url('../images/three.jpg');
+	background-color: var(--support-color);
+  	background-blend-mode: multiply;
+}
+
+.cat8{
+	background-image: url('../images/four.jpg');
+	background-color: var(--support-color);
+  	background-blend-mode: multiply;
+}
+
+.category_box{
+	background-size: cover;
+	color: white;
+	padding: 20px;
+	min-height: 300px;
+	position: relative;
+}
+
+.category_box h1{
+	font-size: 20px;
+	position: absolute;
+	width: 80%;
+	top: 20%;
+}
+
+.category_section .col-sm-3{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
